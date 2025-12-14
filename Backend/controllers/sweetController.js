@@ -1,4 +1,4 @@
-import Sweet from "../models/sweet";
+import Sweet from "../models/sweet.js";
 
 export const addSweet = async (req, res) => {
   try {
