@@ -1,0 +1,19 @@
+[33mcommit 563e1ea780cbc0ddbdfeb1f7ae5e6824e26a49d8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Siddharth <siddharthrishabh019@gmail.com>
+Date:   Sun Dec 14 13:36:25 2025 +0530
+
+    test: add failing test cases for authentication and sweets modules
+    
+    Wrote initial Jest and Supertest test suites covering user registration, login, and sweet management operations as part of the RED phase of TDD. These tests are intentionally failing because the backend implementation is not yet created.
+
+[33mcommit 5e34cf2ad47c21ce1434c7aaf81d3b72397bd87a[m
+Author: Siddharth <siddharthrishabh019@gmail.com>
+Date:   Sun Dec 14 12:52:50 2025 +0530
+
+    test(sweets): add failing tests for sweets CRUD, purchase, and restock
+    
+    Added Jest tests for all sweets-related endpoints using TDD.
+    These tests currently fail because backend logic is not implemented yet.
+    
+    Co-authored-by: ChatGPT <AI@users.noreply.github.com>
+    Co-authored-by: Blackbox AI <blackbox@ai>
